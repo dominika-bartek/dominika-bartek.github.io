@@ -1,0 +1,39 @@
+.c-dateSec {
+  &_date {
+    position: relative;
+    padding-left: 52px;
+
+    &::before,
+    &::after {
+      position: absolute;
+      left: 50%;
+      width: 1px;
+      height: 50px;
+      content: "";
+      background-color: $color_gold;
+      opacity: 0;
+      transform: scaleY(0);
+      animation: fadeIn 500ms 900ms forwards;
+    }
+
+    &::before {
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+
+    img {
+      position: absolute;
+      bottom: 106px;
+      left: 122px;
+      width: 175px;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 1;
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.c-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid $color_gold;
+  transition: background-color 200ms ease-in;
+
+  &:hover {
+    background-color: rgba($color_gold, 0.1);
+  }
+
+  &:active {
+    background-color: rgba($color_gold, 0.2);
+  }
+
+  &_label {
+    font-family: "Alata", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    color: $color_black;
+  }
+}
