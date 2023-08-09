@@ -21,12 +21,13 @@ const Home: NextPage = () => {
   return (
     <div className="container">
       <Head>
+        <meta name="robots" content="noindex" />
         <style>
           {`body {
             opacity: 0;
           }`}
         </style>
-        <title>💒 💍 💮</title>
+        <title>👰‍♀️🤵‍♂️</title>
         <meta
           name="description"
           property="og:description"
